@@ -8,14 +8,14 @@ If something here conflicts with a casual instruction given mid-conversation, pr
 
 - **Product:** Obojima Potions — a small D&D-inspired potion-brewing game (combine ingredients, brew potions, succeed/fail based on a formula/model and user skill).
 - **Real purpose:** a personal, publishable, project-based course teaching the author full-stack development from first principles, one working increment at a time.
-- **Motivation source:** [`IDEA.md`](IDEA.md) (informal, original brief — read for tone and inspiration, not as a spec).
+- **Bootstrap source:** [`IDEA.md`](IDEA.md) (reusable prompt for recreating the repository's initial curriculum and agent configuration; this live plan takes precedence after bootstrap).
 - **Domain source data:** [`raw_assets/`](raw_assets/) — an extraction of the potion-brewing chapter from the *Obojima — Tales from the Tall Grass* sourcebook (~130 ingredients, potion recipes, artwork).
 
 ## 2. Source-of-truth file map
 
 | File | Purpose | Who updates it | Update frequency |
 |---|---|---|---|
-| [`IDEA.md`](IDEA.md) | Original informal brief. Historical context only. | Nobody (frozen) | Never |
+| [`IDEA.md`](IDEA.md) | Reusable bootstrap prompt and original project rationale | Human or agent, when the bootstrap architecture deliberately changes | Rarely |
 | `PLAN.md` (this file) | Locked intentions, goals, non-goals, behavioral contract | Human, with explicit confirmation | Rarely |
 | [`MEMORY.md`](MEMORY.md) | Running journal: decisions made, versions pinned, gotchas, lessons learned | Agent + human, continuously | Every session with progress |
 | [`Progress.md`](Progress.md) | Checkbox-level completion tracker, mirrors `course_plan/` steps | Agent, when a step is verifiably complete | Every completed step |
@@ -72,7 +72,7 @@ The project is "done" (for the MVP) when:
 - [ ] Every step in [`Progress.md`](Progress.md) is checked off
 - [ ] The app runs end to end: a user can register, log in, browse ingredients/potions, attempt a brew, and see a prediction informed by the trained model
 - [ ] The app is deployed and reachable at a public URL
-- [ ] [`RETROSPECTIVE.md`](RETROSPECTIVE.md) (created in the final course step) documents lessons learned and next steps
+- [ ] `RETROSPECTIVE.md` (created in the final course step) documents lessons learned and next steps
 
 ## 9. Changing this plan
 

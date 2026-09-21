@@ -6,7 +6,8 @@ React, and ML — by building a single product end to end: **Obojima
 Potions**, a small D&D-inspired potion-brewing game based on the *Obojima —
 Tales from the Tall Grass* sourcebook.
 
-See [`IDEA.md`](IDEA.md) for the project's motivation and
+See [`IDEA.md`](IDEA.md) for the reusable repository bootstrap prompt and
+project motivation, and
 [`course_plan/00-overview.md`](course_plan/00-overview.md) for the full
 step-by-step curriculum.
 
@@ -17,9 +18,10 @@ the `course-guide` mentor), and [`SOUL.md`](SOUL.md) — the personality of
 **Echo**, a whimsical spirit-professor of Obojima who teaches with examples
 and riddles rather than handing over answers outright. Kept in this repo so
 both can be ported to any AI coding tool/model. Thin adapters wire them into
-specific tools: `.github/agents/course-guide.agent.md` for VS Code/Copilot,
-`.claude/agents/course-guide.md` for Claude Code. Echo keeps this README and
-`Progress.md` in sync as steps are completed.
+specific tools: `.github/copilot-instructions.md` for repository-wide
+Copilot behavior, `.github/agents/course-guide.agent.md` for the Copilot
+Course Guide agent, and `.claude/agents/course-guide.md` for Claude Code.
+Echo keeps this README and `Progress.md` in sync as steps are completed.
 
 ## Toolchain
 

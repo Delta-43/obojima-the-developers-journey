@@ -24,7 +24,7 @@ Fill in as Phase 0 progresses:
 ## Phase 0 — Foundations
 
 ### Decisions
-- _(none yet)_
+- 2026-09-21 — `IDEA.md` is the reusable repository bootstrap prompt. `PLAN.md` remains authoritative once the generated project begins evolving.
 
 ### Gotchas / Lessons learned
 - _(none yet)_
