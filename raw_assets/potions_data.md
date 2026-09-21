@@ -1,4 +1,4 @@
-agic abounds on Obojima. It permeates the landscape, and it pools in certain objects. Over the generations, sages
+Magic abounds on Obojima. It permeates the landscape, and it pools in certain objects. Over the generations, sages
 discovered that this latent magic can be unleashed through what has become the honored craft of potion brewing.
 # M The craft is mysterious, wondrous, and more than a bit chaotic. Most people don’t even attempt it. Seasoned brew
 ers can’t be entirely certain about what kind of potion will result when combining ingredients. Even so, the tradition remains
